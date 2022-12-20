@@ -20,7 +20,7 @@
               p.txt-cuadro1-color-tema1 Es un documento en el cual se establece el estado de las instalaciones eléctricas, basado en el diagnóstico realizado a estas, según las condiciones en las que se encuentran.
               
               p Las normas técnicas que se deben validar en el momento de realizar este informe técnico son las siguientes:
-              ul.lista-ul--color
+              ul.lista-ul--color.txt-tarj1-tema1
                 li 
                   i.fas.fa-angle-right
                   | NTC 2050: Código Eléctrico Colombiano
@@ -68,7 +68,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                 .col-md-6.mb-4.mb-md-0
-                  p Realizar el mapa de distribución: la primera tarea que se debe realizar antes de empezar a construir las regatas es el desarrollo del mapa de distribución de los puntos eléctricos, el tablero de control para que desde aquí se pueda planear de forma estructurada el desarrollo de los caminos de las regatas, con el fin de evitar, en lo posible, que se crucen y evitar también que, al instalar los tubos, estos se curven. Cuando hay situaciones en las cuales las instalaciones físicas obligan a curvarlos, se puede hacer pues la norma no lo prohíbe; sin embargo, como técnica, es mejor no hacerlo. (Bernal-Zuluaga, M. J., y Jiménez-Mendoza,2012)
+                  p.txt-slider1-tema1 Realizar el mapa de distribución: la primera tarea que se debe realizar antes de empezar a construir las regatas es el desarrollo del mapa de distribución de los puntos eléctricos, el tablero de control para que desde aquí se pueda planear de forma estructurada el desarrollo de los caminos de las regatas, con el fin de evitar, en lo posible, que se crucen y evitar también que, al instalar los tubos, estos se curven. Cuando hay situaciones en las cuales las instalaciones físicas obligan a curvarlos, se puede hacer pues la norma no lo prohíbe; sin embargo, como técnica, es mejor no hacerlo. (Bernal-Zuluaga, M. J., y Jiménez-Mendoza,2012)
 
                 .col-md-6
                   h4 Tablero de control eléctrico
@@ -80,7 +80,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                 .col-md-6.mb-4.mb-md-0
-                  p Instalación de la regata en la pared: lo primero que se debe establecer es cuántos tubos van a ser instalados sobre esa regata para poder determinar el tamaño; para esto los tubos deben quedar lineales, con una separación prudente y no deben colocarse superpuestos, pues esto impide las conexiones con las cajas o los contadores.
+                  p.txt-slider1-tema1 Instalación de la regata en la pared: lo primero que se debe establecer es cuántos tubos van a ser instalados sobre esa regata para poder determinar el tamaño; para esto los tubos deben quedar lineales, con una separación prudente y no deben colocarse superpuestos, pues esto impide las conexiones con las cajas o los contadores.
 
 
                 .col-md-6
@@ -93,7 +93,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                   .col-md-6.mb-4.mb-md-0
-                    p Instalación de la regata en piso: en esta se deben establecer como primera medida el número de tubos que se van a alojar en la regata para determinar el tamaño de esta, de tal forma que queden distantes entre ellos.
+                    p.txt-slider1-tema1 Instalación de la regata en piso: en esta se deben establecer como primera medida el número de tubos que se van a alojar en la regata para determinar el tamaño de esta, de tal forma que queden distantes entre ellos.
 
 
                   .col-md-6
@@ -106,7 +106,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                   .col-md-6.mb-4.mb-md-0
-                    p Unión o enlace de las tuberías: los enlaces o las uniones de los tubos deben hacerse con los codos respectivos, es obligatorio que, en la regata que une un muro con el piso o un techo, se coloque un codo.
+                    p.txt-slider1-tema1 Unión o enlace de las tuberías: los enlaces o las uniones de los tubos deben hacerse con los codos respectivos, es obligatorio que, en la regata que une un muro con el piso o un techo, se coloque un codo.
 
 
                   .col-md-6
@@ -120,7 +120,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                   .col-md-6.mb-4.mb-md-0
-                    p Conexión de las regatas a las cajas o tableros de control: en estos espacios se habilita la disposición para realizar la instalación de las cajas o los dispositivos de distribución que se van a utilizar. Es obligatorio, para mejorar la calidad de las instalación, que, en todas las uniones que se necesiten en el proceso, se utilicen los codos correspondientes para evitar dobleces en los tubos donde se van a alojar los cables eléctricos.
+                    p.txt-slider1-tema1 Conexión de las regatas a las cajas o tableros de control: en estos espacios se habilita la disposición para realizar la instalación de las cajas o los dispositivos de distribución que se van a utilizar. Es obligatorio, para mejorar la calidad de las instalación, que, en todas las uniones que se necesiten en el proceso, se utilicen los codos correspondientes para evitar dobleces en los tubos donde se van a alojar los cables eléctricos.
 
 
                   .col-md-6
@@ -183,7 +183,7 @@
                   //figcaption Leyenda de la imagen
                 br
                 p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog].
-                p https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
+                p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
 
 
           .py-3.py-md-4(titulo="Empalme western unión")
@@ -200,7 +200,7 @@
                   //figcaption Leyenda de la imagen
                 br
                 p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog]. 
-                p https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
+                p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
           
           .py-3.py-md-4(titulo="Empalme en T o derivación simple")
             .row
@@ -219,7 +219,7 @@
                 //h4 Celebrate your failures 2
                 br
                 p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog].
-                p https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
+                p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
 
     br
     br
@@ -359,7 +359,7 @@
               //.h5.mb-2 titulo
               p Los objetivos del informe: se establecen claramente las metas de lo que se busca con el proyecto de instalación eléctrica que se va a desarrollar.
 
-            .tarjeta.color-tarj-pto-color.p-3(x="67%" y="55%" numero="4")
+            .tarjeta.color-tarj-pto-color.p-3(x="66%" y="57%" numero="4")
               //.h5.mb-2 titulo
               p Las normas de referencia: todos los proyectos y, más específicamente, los proyectos de instalaciones eléctricas que se desarrollen, tanto en el sector público como en el privado, deben cumplir las normas que los regulan. Estas pueden ser locales, nacionales o internacionales, según apliquen, lo que conlleva a que las debemos enumerar para poder definirlas, implementarlas y validar su aplicación.
 
@@ -367,7 +367,7 @@
               //.h5.mb-2 titulo
               p Criterios de revisión: es necesario tener en cuenta los criterios de diagnóstico de las instalaciones eléctricas. Cabe recordar que estas estructuras deben proteger, principalmente, la vida de quienes habitan en estos lugares, por lo tanto, el diagnóstico se realizará como se indica en el artículo de la norma en lo referente al “análisis de riesgo eléctrico”, donde se analizan posibles factores de riesgo y sus consecuencias.
 
-            .tarjeta.color-tarj-pto-color.p-3(x="30%" y="90%" numero="6")
+            .tarjeta.color-tarj-pto-color.p-3(x="30%" y="95%" numero="6")
               //.h5.mb-2 titulo
               p Factores de riesgo: los que hay en estas instalaciones eléctricas, según el RETIE (2013), son:
               .row 
@@ -412,7 +412,7 @@
               //.h5.mb-2 titulo
               p Descripción de instalaciones eléctricas: en este aparte se deben detallar las instalaciones o dispositivos eléctricos que se encuentren, tales como: la subestación eléctrica, los tableros de distribución, redes de baja tensión e iluminación externa, apantallamiento y puesta a tierra.
 
-            .tarjeta.color-tarj-pto-color.p-3(x="15%" y="50%" numero="8")
+            .tarjeta.color-tarj-pto-color.p-3(x="13%" y="50%" numero="8")
               //.h5.mb-2 titulo
               p Medidas realizadas: en este capítulo se definen las medidas que se van a realizar en la instalación, ya sea nueva o usada. Además, se deben tabular los valores obtenidos para validar el correcto funcionamiento de las instalaciones.
 
@@ -473,12 +473,15 @@
 
               figure
                   img(data-aos="fade-left")(src='@/assets/curso/temas/img-validac-planos.png', alt='Texto que describa la imagen').img-validac-planos
-            
+    br            
+    br            
+    br
+
     .row.container.justify-content-around.align-items-center
 
-        h3 Validación de los planos eléctricos
+        
 
-        .row.fondo-validac-planos.p-4
+        .row.fondo-validac-planos2.p-4
           
           .col-lg-6
 
@@ -601,24 +604,24 @@
                 p Dentro de este grupo se consideran:
 
                 ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Incumplimiento de las medidas de seguridad contra contactos directos
-                li 
-                  i.fas.fa-angle-right
-                  | Partes energizadas expuestas que ponen en riesgo la seguridad de las personas
-                li 
-                  i.fas.fa-angle-right
-                  | Ausencia del sistema de puesta a tierra
-                li 
-                  i.fas.fa-angle-right
-                  | Utilización de productos no certificados
                   li 
-                  i.fas.fa-angle-right
-                  | Incumplimiento de las distancias de seguridad
+                    i.fas.fa-angle-right
+                    | Incumplimiento de las medidas de seguridad contra contactos directos
                   li 
-                  i.fas.fa-angle-right
-                  | Fraude de energía
+                    i.fas.fa-angle-right
+                    | Partes energizadas expuestas que ponen en riesgo la seguridad de las personas
+                  li 
+                    i.fas.fa-angle-right
+                    | Ausencia del sistema de puesta a tierra
+                  li 
+                    i.fas.fa-angle-right
+                    | Utilización de productos no certificados
+                  li 
+                    i.fas.fa-angle-right
+                    | Incumplimiento de las distancias de seguridad
+                  li 
+                    i.fas.fa-angle-right
+                    | Fraude de energía
 
 
               .col-md-6
@@ -635,18 +638,18 @@
                 p Dentro de este grupo se consideran los siguientes defectos:
 
                 ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Falta de conexiones equipotenciales cuando estas sean requeridas
-                li 
-                  i.fas.fa-angle-right
-                  | Naturaleza o características no adecuadas de los conductores
-                li 
-                  i.fas.fa-angle-right
-                  | Carencia del número de circuitos estipulados
-                li 
-                  i.fas.fa-angle-right
-                  | Planos e instalación eléctrica no coinciden con la instalación
+                  li 
+                    i.fas.fa-angle-right
+                    | Falta de conexiones equipotenciales cuando estas sean requeridas
+                  li 
+                    i.fas.fa-angle-right
+                    | Naturaleza o características no adecuadas de los conductores
+                  li 
+                    i.fas.fa-angle-right
+                    | Carencia del número de circuitos estipulados
+                  li 
+                    i.fas.fa-angle-right
+                    | Planos e instalación eléctrica no coinciden con la instalación
 
 
               .col-md-6
@@ -659,21 +662,21 @@
               .col-md-6.mb-4.mb-md-0
               
                 ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Falta de aislamiento en la instalación
-                li 
-                  i.fas.fa-angle-right
-                  | Falta de continuidad en los conductores de protección
-                li 
-                  i.fas.fa-angle-right
-                  | Inexistencia de medidas adecuadas de seguridad contra contactos indirectos
-                li 
-                  i.fas.fa-angle-right
-                  | Falta de protección adecuada contra cortocircuitos y sobrecargas en los conductores
-                li 
-                  i.fas.fa-angle-right
-                  | Falta de identificación de los conductores “neutro” y de “protección”
+                  li 
+                    i.fas.fa-angle-right
+                    | Falta de aislamiento en la instalación
+                  li 
+                    i.fas.fa-angle-right
+                    | Falta de continuidad en los conductores de protección
+                  li 
+                    i.fas.fa-angle-right
+                    | Inexistencia de medidas adecuadas de seguridad contra contactos indirectos
+                  li 
+                    i.fas.fa-angle-right
+                    | Falta de protección adecuada contra cortocircuitos y sobrecargas en los conductores
+                  li 
+                    i.fas.fa-angle-right
+                    | Falta de identificación de los conductores “neutro” y de “protección”
 
                 
 
@@ -720,10 +723,14 @@
                 figure
                     img(src='@/assets/curso/temas/img-instalacion-cableado.png', alt='Texto que describa la imagen').img-instalacion-cableado
            
+    br
+    br
 
     .row.container.justify-content-around.align-items-center
-
-        .bg--img_03
+        
+        h3 Cableado estructurado
+        
+        .bg--img_03.bloque-acord-tema1
           .row.justify-content-center.mb-4
             .col-lg-5
               figure(data-aos="zoom-in")
@@ -749,7 +756,7 @@
                     p.mb-0 La certificación de un sistema de cableado estructurado nos muestra la calidad de los componentes y de la instalación, es decir, nos dice si la red de cableado cumple con la normativa y, por tanto, asegura una conectividad y un funcionamiento correcto. La certificación del cableado es la única garantía para asegurar que la red cumple con todos los requisitos y soportará los equipos y aplicaciones correspondientes sin ningún tipo de problema. Es una documentación imprescindible.
 
 
-        .bg--img_03
+        .bg--img_03.bloque-acord-tema1
           .row.justify-content-center.mb-4
             .col-lg-7
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-sup-acord")
@@ -780,12 +787,15 @@
                 img(src="@/assets/curso/temas/img2-cableado-estruc.png", alt="alt").img400.m-auto
 
 
-            
+    br            
+    br            
+
 
     .row.container.justify-content-around.align-items-center
 
+        h3 Buenas prácticas en manipulación
 
-        .row.fondo-buenas-practicas.p-4
+        .row.fondo-buenas-practicas.bloque-pract-manip.p-4
 
           .col-lg-6
 
