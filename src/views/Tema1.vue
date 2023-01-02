@@ -10,9 +10,9 @@
       
     .row.container.justify-content-around.align-items-center
 
-        #principales-elementos-de-proteccion-personal
-        .titulo-segundo.color-primario
-          h2 1.1  Concepto y características
+        //#principales-elementos-de-proteccion-personal
+        //.titulo-segundo.color-primario
+        //  h2 1.1  Concepto y características
 
         .row.container
           .col-lg-7
@@ -179,7 +179,7 @@
                     span <em>Empalme cola de rata</em>
             
                 figure
-                  img(src='@/assets/curso/temas/empalme-cola-rata.png', alt='Texto que describa la imagen').img-empalmes
+                  img(src='@/assets/curso/temas/img2-empalme-cola-rata.png', alt='Texto que describa la imagen').img-empalmes
                   //figcaption Leyenda de la imagen
                 br
                 p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog].
@@ -454,6 +454,8 @@
               p En esta etapa se deben revisar los puntos y las instalaciones eléctricas físicas, los cuales deben coincidir exactamente con los dispuestos en los planos. En el momento en que, por alguna razón o circunstancia, se hayan cambiado puntos o cables de tal forma que no coincidan con el plano original, se deben cambiar los planos eléctricos para que estos queden actualizados y, a su vez, sean aprobados por los entes correspondientes:
               h4.txt-conex-embrag Planos eléctricos
 
+              p Para lograr un informe exitoso, se deben seguir los siguientes pasos en el momento de realizarlo:
+
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right
@@ -615,6 +617,9 @@
                     | Ausencia del sistema de puesta a tierra
                   li 
                     i.fas.fa-angle-right
+                    | Riesgo de incendio o explosión
+                  li 
+                    i.fas.fa-angle-right
                     | Utilización de productos no certificados
                   li 
                     i.fas.fa-angle-right
@@ -654,7 +659,7 @@
 
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/img4-slider-ejec.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/img-defecto-grave.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
         
             .row.justify-content-center.align-items-center.my-lg-4
@@ -683,7 +688,7 @@
 
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/img5-slider-ejec.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/img2-defecto-grave.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
          
          
@@ -696,7 +701,7 @@
                 
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/img6-slider-ejec.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/img-defecto-leve.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
     br
 
@@ -743,7 +748,7 @@
 
                 .row(titulo="Elemento cableado vertical")
                   .col-12
-                    p.mb-0 También llamado troncal o backbone es el que suministra las interconexiones entre los diferentes cuartos de servicio o telecomunicaciones.
+                    p.mb-0 También llamado troncal o <em>backbone</em> es el que suministra las interconexiones entre los diferentes cuartos de servicio o telecomunicaciones.
                     p Generalmente, son uniones entre naves o entre diferentes pisos que pueden ser realizadas en cableado de cobre, pero, por motivos de dimensionado, rendimiento y ancho de banda, es más recomendable que los cableados verticales se realicen con fibra óptica.
                     
                 .row(titulo="Cuarto de telecomunicaciones")
@@ -774,12 +779,12 @@
                     
                 .row(titulo="Gestión de cableado")
                   .col-12
-                    p.mb-0 Los elementos de conexión o path cords deben ser de colores para poder identificar los servicios que enlazan. Existen path cords identificables mediante fibra óptica de luz que facilitan la identificación de cableados y permiten que la organización y el peinado de cables sean perfectos. (Cortés, A. (2012)
+                    p.mb-0 Los elementos de conexión o <em>path cords</em> deben ser de colores para poder identificar los servicios que enlazan. Existen path cords identificables mediante fibra óptica de luz que facilitan la identificación de cableados y permiten que la organización y el peinado de cables sean perfectos. (Cortés, A. (2012)
 
                     
                 .row(titulo="Armarios rack")
                   .col-12
-                    p.mb-0 El armario rack es un elemento más dentro de las instalaciones de cableado estructurado.
+                    p.mb-0 El armario <em>rack</em> es un elemento más dentro de las instalaciones de cableado estructurado.
                     p Se trata de un soporte metálico destinado a alojar equipamiento electrónico, informático y de comunicaciones con unas medidas de anchura normalizadas para que sean compatibles con equipamiento de cualquier fabricante.
 
             .col-lg-5
@@ -801,7 +806,7 @@
 
                 p Para lograr una instalación de una solución de cableado estructurado, de una forma confiable y segura, se requiere, como primer aspecto, conocer las normas aplicables que aseguren un trabajo con calidad.
 
-                h4.txt-conex-embrag Planos eléctricos
+                h4.txt-conex-embrag Buenas prácticas
 
                 p Como segundo aspecto se necesita el conocimiento de las buenas prácticas y el complemento que la experiencia otorga. 
                 p A continuación se exponen algunas buenas prácticas: 
