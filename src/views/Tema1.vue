@@ -10,16 +10,15 @@
       
     .row.container.justify-content-around.align-items-center
 
-        //#principales-elementos-de-proteccion-personal
-        //.titulo-segundo.color-primario
-        //  h2 1.1  Concepto y características
-
         .row.container
           .col-lg-7
               .cuadro1-color-tema1
               p.txt-cuadro1-color-tema1 Es un documento en el cual se establece el estado de las instalaciones eléctricas, basado en el diagnóstico realizado a estas, según las condiciones en las que se encuentran.
               
+              h3.mt-3 Informe técnico
+
               p Las normas técnicas que se deben validar en el momento de realizar este informe técnico son las siguientes:
+
               ul.lista-ul--color.txt-tarj1-tema1
                 li 
                   i.fas.fa-angle-right
@@ -44,18 +43,16 @@
               figure
                   img(src='@/assets/curso/temas/img1-tema1.png', alt='Texto que describa la imagen').img1-tema1
         
-        p Además, según las entidades, también estas exigen el cumplimiento de determinadas normas, de acuerdo con diferentes requerimientos que se tengan definidos. Dentro de estos informes es muy importante tener los conocimientos en las técnicas de instalación para poder realizar estas validaciones y aplicar las normas.
-          
-          
-    br          
-    br          
-    br
+        p Además, según las entidades, también exigen el cumplimiento de determinadas normas, de acuerdo con diferentes requerimientos que se tengan definidos. 
 
-    .row.container.justify-content-around.align-items-center
+        p Dentro de estos informes es muy importante tener los conocimientos en las técnicas de instalación para poder realizar estas validaciones y aplicar las normas.
 
-        h3 Las técnicas o procedimientos son:
 
-        p Las técnicas y procedimientos para hacer regatas, tendido y unión de tubería.
+    .row.container.justify-content-around.align-items-center.mt-3
+
+        h3 Técnicas y procedimientos
+
+        p A continuación, se detallan las técnicas y procedimientos para hacer regatas, tendido y unión de tubería.
 
         .tarjeta.p-4
             figure
@@ -68,7 +65,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                 .col-md-6.mb-4.mb-md-0
-                  p.txt-slider1-tema1 Realizar el mapa de distribución: la primera tarea que se debe realizar antes de empezar a construir las regatas es el desarrollo del mapa de distribución de los puntos eléctricos, el tablero de control para que desde aquí se pueda planear de forma estructurada el desarrollo de los caminos de las regatas, con el fin de evitar, en lo posible, que se crucen y evitar también que, al instalar los tubos, estos se curven. Cuando hay situaciones en las cuales las instalaciones físicas obligan a curvarlos, se puede hacer pues la norma no lo prohíbe; sin embargo, como técnica, es mejor no hacerlo. (Bernal-Zuluaga, M. J., y Jiménez-Mendoza,2012)
+                  p.txt-slider1-tema1 Realizar el mapa de distribución: la primera tarea que se debe realizar antes de empezar a construir las regatas es el desarrollo del mapa de distribución de los puntos eléctricos, el tablero de control para que desde aquí se pueda planear de forma estructurada el desarrollo de los caminos de las regatas, con el fin de evitar, en lo posible, que se crucen y evitar que, al instalar los tubos, estos se curven. Cuando hay situaciones en las cuales las instalaciones físicas obligan a curvarse, se puede hacer, pues la norma no lo prohíbe; sin embargo, como técnica, es mejor no hacerlo. (Bernal-Zuluaga, M. J., y Jiménez-Mendoza,2012)
 
                 .col-md-6
                   h4 Tablero de control eléctrico
@@ -106,7 +103,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                   .col-md-6.mb-4.mb-md-0
-                    p.txt-slider1-tema1 Unión o enlace de las tuberías: los enlaces o las uniones de los tubos deben hacerse con los codos respectivos, es obligatorio que, en la regata que une un muro con el piso o un techo, se coloque un codo.
+                    p.txt-slider1-tema1 Unión o enlace de las tuberías: los enlaces o las uniones de los tubos deben hacerse con los codos respectivos, es obligatorio que en la regata que une un muro con el piso o un techo, se coloque un codo. 
 
 
                   .col-md-6
@@ -120,8 +117,9 @@
               .row.justify-content-center.align-items-center.my-lg-4
 
                   .col-md-6.mb-4.mb-md-0
-                    p.txt-slider1-tema1 Conexión de las regatas a las cajas o tableros de control: en estos espacios se habilita la disposición para realizar la instalación de las cajas o los dispositivos de distribución que se van a utilizar. Es obligatorio, para mejorar la calidad de las instalación, que, en todas las uniones que se necesiten en el proceso, se utilicen los codos correspondientes para evitar dobleces en los tubos donde se van a alojar los cables eléctricos.
+                    p.txt-slider1-tema1 Conexión de las regatas a las cajas o tableros de control: en estos espacios se habilita la disposición para realizar la instalación de las cajas o los dispositivos de distribución que se van a utilizar.
 
+                    p.txt-slider1-tema1 Es obligatorio para mejorar la calidad de las instalaciones, y que en todas las uniones que se necesiten en el proceso, se utilicen los codos correspondientes para evitar dobleces en los tubos donde se van a alojar los cables eléctricos. 
 
                   .col-md-6
                     h4 Conexión de regatas
@@ -172,11 +170,11 @@
               .col-md-12.mb-10.mb-md-0
                 //h4 Celebrate your failures 1
 
-                p Este tipo de conexión se utiliza cuando el cable no está sujeto a grandes esfuerzos de tracción. Se utiliza para conectar cables en cajas de derivación o tomas, tanto de tomas como de interruptores. En este tipo de conexión, la cinta se puede sustituir por un enchufe
+                p Este tipo de conexión se utiliza cuando el cable no está sujeto a grandes esfuerzos de tracción. Se utiliza para conectar cables en cajas de derivación, tanto de tomas como de interruptores. En este tipo de conexión, la cinta se puede sustituir por un enchufe.
 
                 .titulo-sexto.color-secundario.mb-3
-                    h5 Figura 1.
-                    span <em>Empalme cola de rata</em>
+                    h5 Figura 1
+                    p <em>Empalme cola de rata</em>
             
                 figure
                   img(src='@/assets/curso/temas/img2-empalme-cola-rata.png', alt='Texto que describa la imagen').img-empalmes
@@ -186,14 +184,14 @@
                 p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
 
 
-          .py-3.py-md-4(titulo="Empalme western unión")
+          .py-3.py-md-4(titulo="Empalme <em>western unión</em>")
             .row
               .col-md-12.mb-10.mb-md-0
                 p Este tipo de unión es el más utilizado para concretar los tendidos eléctricos. Sirve para unir dos conductores o alambres y es muy apetecido porque, debido a su forma de construcción, soporta mayores esfuerzos.
                 
                 .titulo-sexto.color-secundario.mb-3
-                    h5 Figura 2.
-                    span <em>Empalme western unión</em>
+                    h5 Figura 2
+                    p <em>Empalme western unión</em>
 
                 figure
                   img(src='@/assets/curso/temas/img-empalme-western-union.png', alt='Texto que describa la imagen').img-empalmes
@@ -209,8 +207,8 @@
                 p Es uno de los más utilizados para desarrollar las derivaciones de los cables principales a otros cables o para la conexión de los dispositivos eléctricos. Consiste en quitar el aislante del conductor y enrollar el cable anexo sobre este, realizando así la derivación.
                 
                 .titulo-sexto.color-secundario.mb-3
-                    h5 Figura 3.
-                    span <em>Empalme en T o derivación simple</em>
+                    h5 Figura 3
+                    p <em>Empalme en T o derivación simple</em>
 
                 figure
                   img(src='@/assets/curso/temas/img-empalme-t.png', alt='Texto que describa la imagen').img-empalmes
@@ -221,11 +219,9 @@
                 p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog].
                 p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
 
-    br
-    br
-    br
+    
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         h3 Técnicas de encintado
         
@@ -288,15 +284,13 @@
                   img(src='@/assets/curso/temas/img4-slider2-tema1.png', alt='Texto que describa la imagen').img-slider2-tema1
                   //figcaption Leyenda de la imagen
     
-    br
-    br
-    br
-
-    .row.container.justify-content-around.align-items-center
+   
+    .row.container.justify-content-around.align-items-center.mt-5
 
         h3 Técnica de embornamientos 
 
-        p Embornar significa conectar cables eléctricos con tornillos, disponiendo de dispositivos eléctricos para este propósito, tales como: portalámparas, enchufes, clavijas, interruptores, etc., para lograr una conexión eléctrica perfecta, resistencia mecánica y una forma segura.
+        p Embornar significa conectar cables eléctricos con tornillos, disponiendo de dispositivos eléctricos para este propósito, tales como: portalámparas, enchufes, clavijas, interruptores, entre otros; para lograr una conexión eléctrica perfecta, resistencia mecánica y una forma segura.
+
         p Las conexiones de embrague son necesarias en la mayoría de las operaciones eléctricas, especialmente, en instalaciones domésticas.
 
     br
@@ -328,15 +322,12 @@
                   img(data-aos="fade-left")(src='@/assets/curso/temas/img-conexiones-embrague.png', alt='Texto que describa la imagen').img-conexiones-embrague
             
     
-    br
-    br
-    br
+   
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
         
         h3 Instalaciones eléctricas 
         
-        p A continuación, se presentan contenidos relacionados con los contenidos que debe tener un informe técnico de las instalaciones eléctricas.
         p El informe técnico de las instalaciones eléctricas debe contener los siguientes elementos básicos:
 
         .row.fondo-pto-caliente.p-4
@@ -349,11 +340,11 @@
 
             .tarjeta.color-tarj-pto-color.p-3(x="73%" y="18%" numero="1")
               //.h5.mb-2 titulo
-              p Generalidades o la descripción de las instalaciones: en este aparte se debe describir el ambiente para el cual se va a desarrollar el informe. Por ejemplo, si es una instalación nueva puede ser una construcción nueva, conjunto residencial o una entidad del Estado, entre otras. En el caso de que sea una renovación o mejoramiento del sistema antiguo, debemos mencionarlo y describirlo brevemente en este aparte.
+              p Generalidades o descripciones de las instalaciones: en este se debe describir el ambiente para el cual se va a desarrollar el informe. Por ejemplo, si es una instalación nueva puede ser una construcción nueva, conjunto residencial o una entidad del Estado, entre otras. En el caso de que sea una renovación o mejoramiento del sistema antiguo, se debe mencionar y describir brevemente en este apartado.
 
             .tarjeta.color-tarj-pto-color.p-3(x="85%" y="35%" numero="2")
               //.h5.mb-2 titulo
-              p El alcance del informe: este contiene la información de qué es lo que se busca con el informe: si es presentar un proyecto nuevo o si es un proyecto de mejoramiento de un sistema antiguo, entre otros. Aquí se determina qué es lo que se va a hacer en el proyecto.
+              p El alcance del informe: este contiene la información de qué es lo que se busca con el mismo, es decir, si es presentar un proyecto nuevo o si es un proyecto de mejoramiento de un sistema antiguo, entre otros. Aquí se determina qué es lo que se va a hacer en el proyecto.
 
             .tarjeta.color-tarj-pto-color.p-3(x="85%" y="50%" numero="3")
               //.h5.mb-2 titulo
@@ -361,11 +352,11 @@
 
             .tarjeta.color-tarj-pto-color.p-3(x="66%" y="57%" numero="4")
               //.h5.mb-2 titulo
-              p Las normas de referencia: todos los proyectos y, más específicamente, los proyectos de instalaciones eléctricas que se desarrollen, tanto en el sector público como en el privado, deben cumplir las normas que los regulan. Estas pueden ser locales, nacionales o internacionales, según apliquen, lo que conlleva a que las debemos enumerar para poder definirlas, implementarlas y validar su aplicación.
+              p Las normas de referencia: todos los proyectos, específicamente los proyectos de instalaciones eléctricas que se desarrollen, tanto en el sector público como en el privado, deben cumplir las normas que los regulan. Estas pueden ser locales, nacionales o internacionales, según apliquen, lo que conlleva a que se deban enumerar para poder definirlas, implementarlas y validar su aplicación.
 
             .tarjeta.color-tarj-pto-color.p-3(x="85%" y="80%" numero="5")
               //.h5.mb-2 titulo
-              p Criterios de revisión: es necesario tener en cuenta los criterios de diagnóstico de las instalaciones eléctricas. Cabe recordar que estas estructuras deben proteger, principalmente, la vida de quienes habitan en estos lugares, por lo tanto, el diagnóstico se realizará como se indica en el artículo de la norma en lo referente al “análisis de riesgo eléctrico”, donde se analizan posibles factores de riesgo y sus consecuencias.
+              p Criterios de revisión: es necesario tener en cuenta los criterios de diagnóstico de las instalaciones eléctricas. Cabe recordar que estas estructuras deben proteger principalmente la vida de quienes habitan en estos lugares. Por lo tanto, el diagnóstico se realizará como se indica en el artículo de la norma en lo referente al “análisis de riesgo eléctrico”, donde se analizan posibles factores de riesgo y sus consecuencias.
 
             .tarjeta.color-tarj-pto-color.p-3(x="30%" y="95%" numero="6")
               //.h5.mb-2 titulo
@@ -410,7 +401,7 @@
 
             .tarjeta.color-tarj-pto-color.p-3(x="17%" y="80%" numero="7")
               //.h5.mb-2 titulo
-              p Descripción de instalaciones eléctricas: en este aparte se deben detallar las instalaciones o dispositivos eléctricos que se encuentren, tales como: la subestación eléctrica, los tableros de distribución, redes de baja tensión e iluminación externa, apantallamiento y puesta a tierra.
+              p Descripción de instalaciones eléctricas: en este aparte se deben detallar las instalaciones o dispositivos eléctricos que se encuentren, tales como la subestación eléctrica, los tableros de distribución, redes de baja tensión e iluminación externa, apantallamiento y puesta a tierra.
 
             .tarjeta.color-tarj-pto-color.p-3(x="13%" y="50%" numero="8")
               //.h5.mb-2 titulo
@@ -420,13 +411,11 @@
               //.h5.mb-2 titulo
               p Recomendaciones: en esta sección se establecen las oportunidades de mejora, adiciones que permitan llevar a un mejor funcionamiento de las instalaciones realizadas.
     
-    br
 
     separador
     
-    br
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         #principales-elementos-de-proteccion-personal
         .titulo-segundo.color-primario
@@ -440,11 +429,9 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    br
-    br
-    br
+  
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         h3 Validación de los planos eléctricos
 
@@ -452,6 +439,7 @@
           .col-lg-6
 
               p En esta etapa se deben revisar los puntos y las instalaciones eléctricas físicas, los cuales deben coincidir exactamente con los dispuestos en los planos. En el momento en que, por alguna razón o circunstancia, se hayan cambiado puntos o cables de tal forma que no coincidan con el plano original, se deben cambiar los planos eléctricos para que estos queden actualizados y, a su vez, sean aprobados por los entes correspondientes:
+
               h4.txt-conex-embrag Planos eléctricos
 
               p Para lograr un informe exitoso, se deben seguir los siguientes pasos en el momento de realizarlo:
@@ -475,11 +463,9 @@
 
               figure
                   img(data-aos="fade-left")(src='@/assets/curso/temas/img-validac-planos.png', alt='Texto que describa la imagen').img-validac-planos
-    br            
-    br            
-    br
 
-    .row.container.justify-content-around.align-items-center
+
+    .row.container.justify-content-around.align-items-center.mt-5
 
         
 
@@ -513,11 +499,8 @@
         
         p Dentro de las inspecciones es importante realizar las siguientes actividades que son de gran importancia para la validez y la eficacia de la instalación:        
 
-    br         
-    br         
-    br         
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
       
       h3 Actividades en la inspección
 
@@ -528,34 +511,34 @@
             img(src="@/assets/curso/temas/img-activid-inspeccion.png", alt="alt")
         .col-lg-8
           LineaTiempoD.color-secundario
-            p(numero="1" titulo="Conexión a tierra:") las conexiones a tierra se verifican para la prueba validando que la tierra esté debidamente instalada de tal forma que, cuando ocurra alguna descarga, asegure el desempeño de la protección.
+            p(numero="1" titulo="Conexión a tierra:") Las conexiones a tierra se verifican para la prueba validando que la tierra esté debidamente instalada de tal forma que, cuando ocurra alguna descarga, asegure el desempeño de la protección.
 
-            p(numero="2" titulo="Protección contra contacto directo:") se comprueba la presencia de métodos de protección contra contactos directos, tales como como la cubierta del panel eléctrico y la cajas de distribución.
+            p(numero="2" titulo="Protección contra contacto directo:") Se comprueba la presencia de métodos de protección contra contactos directos, tales como como la cubierta del panel eléctrico y las cajas de distribución.
 
-            p(numero="3" titulo="Protección contra contactos Indirectos:") se comprueba la existencia de medios de protección contra contactos indirectos (separación de circuitos, sistemas de puesta a tierra, interruptores diferenciales, etc.).
+            p(numero="3" titulo="Protección contra contactos Indirectos:") Se comprueba la existencia de medios de protección contra contactos indirectos (separación de circuitos, sistemas de puesta a tierra, interruptores diferenciales, etc.).
 
-            p(numero="4" titulo="Protección contra sobrecargas y cortocircuitos:") se comprueba la protección de los circuitos por medio de interruptores magneto térmicos o de fusibles calibrados contra los efectos de las sobreintensidades y cortocircuitos que puedan presentarse motivadas por sobrecargas o cortocircuitos. Se verifica la utilización de conductores de sección adecuada en relación con la potencia instalada.
+            p(numero="4" titulo="Protección contra sobrecargas y cortocircuitos:") Se comprueba la protección de los circuitos por medio de interruptores magneto térmicos o de fusibles calibrados contra los efectos de las sobreintensidades y cortocircuitos que puedan presentarse motivadas por sobrecargas o cortocircuitos. Se verifica la utilización de conductores de sección adecuada en relación con la potencia instalada.
 
-    br
 
-    .row.container.justify-content-around.align-items-center
+
+    .row.container.justify-content-around.align-items-center.mt-3
         
       .row.justify-content-center.mb-5
       
         .col-lg-8
           LineaTiempoD.color-secundario
 
-            p(numero="5" titulo="Identificación de circuitos y conductores:") se verifica la correcta identificación de circuitos y elementos, así como la identificación de conductores.
+            p(numero="5" titulo="Identificación de circuitos y conductores:") Se verifica la correcta identificación de circuitos y elementos, así como la identificación de conductores.
 
-            p(numero="6" titulo="Tipo de conductores:") las características de los conductores a utilizar dependerán de la aplicación, del lugar y de las condiciones en que se instalen.
+            p(numero="6" titulo="Tipo de conductores:") Las características de los conductores a utilizar, dependerá de la aplicación, del lugar y de las condiciones en que se instalen.
 
-            p(numero="7" titulo="Tubos y cajas de derivación:") la clase de tubos y cajas de derivación a utilizar dependerá también de la aplicación, del lugar y de las condiciones de instalación.
+            p(numero="7" titulo="Tubos y cajas de derivación:") La clase de tubos y cajas de derivación a utilizar dependerá también de la aplicación, del lugar y de las condiciones de instalación.
 
-            p(numero="8" titulo="Estado de cuadros eléctricos:") se comprueba el buen estado, en general, de los cuadros eléctricos (deterioros, oxidación, síntomas de calentamiento, rotulación de mandos, etc.).
+            p(numero="8" titulo="Estado de cuadros eléctricos:") Se comprueba el buen estado, en general, de los cuadros eléctricos (deterioros, oxidación, síntomas de calentamiento, rotulación de mandos, etc.).
 
-            p(numero="9" titulo="Alumbrados especiales:") se comprobará la existencia de alumbrados especiales, en caso de ser necesarios, su correcta distribución y funcionamiento.
+            p(numero="9" titulo="Alumbrados especiales:") Se comprobará la existencia de alumbrados especiales, en caso de ser necesarios, su correcta distribución y funcionamiento.
 
-            p(numero="10" titulo="Cruzamientos y paralelismos:") se comprueba que la distancia entre canalizaciones eléctricas a otras canalizaciones no eléctricas sea la adecuada.
+            p(numero="10" titulo="Cruzamientos y paralelismos:") Se comprueba que la distancia entre canalizaciones eléctricas a otras canalizaciones no eléctricas, sea la adecuada.
 
 
         .col-lg-4
@@ -563,16 +546,14 @@
             img(src="@/assets/curso/temas/img2-inspecci.png", alt="alt")
 
      
-    br
-    br
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         h3 Ejecución
 
-        p A continuación, se presentan información relacionada con la etapa de ejecución que se contempla en un informe de instalaciones eléctricas y los procedimientos que se deben aplicar con el fin de asegurar la documentación de los procesos.
-        p Dentro de esta etapa se deben realizar los siguientes procedimientos:
+        p A continuación, se presenta información relacionada con la etapa de ejecución que se contempla en un informe de instalaciones eléctricas y los procedimientos que se deben aplicar con el fin de asegurar la documentación de los procesos.
 
+        p Dentro de esta etapa se deben realizar los siguientes procedimientos:
         
         .tarjeta.tarjeta--azul.p-4
         
@@ -580,7 +561,7 @@
 
             .row
               .col-md-6.mb-4.mb-md-0
-                p Revisión de la documentación: la documentación se analiza como una etapa previa a la inspección con el fin de que si existiese alguna anormalidad, irregularidad o discrepancia en cuanto al cumplimiento del RETIE o la norma NTC 2050, esta pueda ser estudiada antes del inicio de la inspección.
+                p La documentación se analiza como una etapa previa a la inspección con el fin de que, si existiese alguna anormalidad, irregularidad o discrepancia en cuanto al cumplimiento del RETIE o la norma NTC 2050, esta pueda ser estudiada antes del inicio de la inspección.
 
               .col-md-6
                 h4 Revisión de la documentación
@@ -591,7 +572,7 @@
             .row.justify-content-center.align-items-center.my-lg-4
               
               .col-md-6.mb-4.mb-md-0
-                p Observaciones de la inspección. Las observaciones se registran y se clasifican como se detalla a continuación:
+                p Las observaciones se registran y se clasifican como se detalla a continuación:
 
               .col-md-6
                 h4 Observaciones de la inspección
@@ -602,31 +583,38 @@
             .row.justify-content-center.align-items-center.my-lg-4
               
               .col-md-6.mb-4.mb-md-0
-                p Defecto muy grave: es todo elemento o evento que la razón o la experiencia determina que constituye un peligro inmediato para la seguridad de las personas o de las cosas.
+                p Es todo elemento o evento que la razón o la experiencia determina que constituye un peligro inmediato para la seguridad de las personas o de las cosas.
+
                 p Dentro de este grupo se consideran:
 
                 ul.lista-ul--color
                   li 
                     i.fas.fa-angle-right
-                    | Incumplimiento de las medidas de seguridad contra contactos directos
+                    | Incumplimiento de las medidas de seguridad contra contactos directos.
+
                   li 
                     i.fas.fa-angle-right
-                    | Partes energizadas expuestas que ponen en riesgo la seguridad de las personas
+                    | Partes energizadas expuestas que ponen en riesgo la seguridad de las personas.
+
                   li 
                     i.fas.fa-angle-right
-                    | Ausencia del sistema de puesta a tierra
+                    | Ausencia del sistema de puesta a tierra.
+
                   li 
                     i.fas.fa-angle-right
-                    | Riesgo de incendio o explosión
+                    | Riesgo de incendio o explosión.
+
                   li 
                     i.fas.fa-angle-right
-                    | Utilización de productos no certificados
+                    | Utilización de productos no certificados.
+
                   li 
                     i.fas.fa-angle-right
-                    | Incumplimiento de las distancias de seguridad
+                    | Incumplimiento de las distancias de seguridad.
+
                   li 
                     i.fas.fa-angle-right
-                    | Fraude de energía
+                    | Fraude de energía.
 
 
               .col-md-6
@@ -639,22 +627,26 @@
             .row.justify-content-center.align-items-center.my-lg-4
               
               .col-md-6.mb-4.mb-md-0
-                p Defecto grave: es el que, a diferencia del muy grave, no supone un peligro inmediato para la seguridad de las personas o de las cosas, pero sí puede serlo al originarse un fallo en la instalación. Se incluye también dentro de esta clasificación aquel defecto que pueda reducir la capacidad de utilización de la instalación eléctrica.
+                p Es el que, a diferencia del muy grave, no supone un peligro inmediato para la seguridad de las personas o de las cosas, pero sí puede serlo al originarse un fallo en la instalación. Se incluye también dentro de esta clasificación aquel defecto que pueda reducir la capacidad de utilización de la instalación eléctrica.
+
                 p Dentro de este grupo se consideran los siguientes defectos:
 
                 ul.lista-ul--color
                   li 
                     i.fas.fa-angle-right
-                    | Falta de conexiones equipotenciales cuando estas sean requeridas
+                    | Falta de conexiones equipotenciales cuando éstas sean requeridas.
+
                   li 
                     i.fas.fa-angle-right
-                    | Naturaleza o características no adecuadas de los conductores
+                    | Naturaleza o características no adecuadas de los conductores.
+
                   li 
                     i.fas.fa-angle-right
-                    | Carencia del número de circuitos estipulados
+                    | Carencia del número de circuitos estipulados.
+
                   li 
                     i.fas.fa-angle-right
-                    | Planos e instalación eléctrica no coinciden con la instalación
+                    | Planos e instalación eléctrica no coinciden con la instalación.
 
 
               .col-md-6
@@ -669,19 +661,24 @@
                 ul.lista-ul--color
                   li 
                     i.fas.fa-angle-right
-                    | Falta de aislamiento en la instalación
+                    | Falta de aislamiento en la instalación.
+
                   li 
                     i.fas.fa-angle-right
-                    | Falta de continuidad en los conductores de protección
+                    | Falta de continuidad en los conductores de protección.
+
                   li 
                     i.fas.fa-angle-right
-                    | Inexistencia de medidas adecuadas de seguridad contra contactos indirectos
+                    | Inexistencia de medidas adecuadas de seguridad contra contactos indirectos.
+
                   li 
                     i.fas.fa-angle-right
-                    | Falta de protección adecuada contra cortocircuitos y sobrecargas en los conductores
+                    | Falta de protección adecuada contra cortocircuitos y sobrecargas en los conductores.
+
                   li 
                     i.fas.fa-angle-right
-                    | Falta de identificación de los conductores “neutro” y de “protección”
+                    | Falta de identificación de los conductores “neutro” y de “protección”.
+
 
                 
 
@@ -696,20 +693,17 @@
             .row.justify-content-center.align-items-center.my-lg-4
               
               .col-md-6.mb-4.mb-md-0
-                p Defecto leve: es todo aquel que no supone peligro para las personas o las cosas; no perturba el funcionamiento de la instalación y en el que la desviación observada no tiene valor.
-
+                p Es todo aquel que no supone peligro para las personas o las cosas; no perturba el funcionamiento de la instalación y en el que la desviación observada no tiene valor.
                 
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/img-defecto-leve.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
-    br
+
 
     separador
     
-    br
-
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         #principales-elementos-de-proteccion-personal
         .titulo-segundo.color-primario
@@ -719,17 +713,19 @@
         .row 
             .col-lg-7
 
-                p Dentro de la implementación de las redes de datos, más conocido como cableado estructurado, en un proyecto de actualización tecnológica, es uno de los pilares que otorga más relevancia, pues, mediante este, vamos a realizar la interconectividad de todos los elementos de la red tecnológica. Sus características de velocidad y capacidad determinan las características o valores agregados de la interconexión.
-                p Por otra parte, el sistema de cableado estructurado está conformado por elementos tales como: puntos de red, cableado UTP, fibra óptica o inalámbrica, switches, conectores, enrutadores, entre otros.
-                p La instalación se compone de varios elementos, que tienen solos una función única y, en conjunto, aportan estas:
-
+                p La documentación se analiza como una etapa previa a la inspección con el fin de que, si existiese alguna anormalidad, irregularidad o discrepancia en cuanto al cumplimiento del RETIE o la norma NTC 2050, esta pueda ser estudiada antes del inicio de la inspección.
+    
             .col-lg-5
 
                 figure
                     img(src='@/assets/curso/temas/img-instalacion-cableado.png', alt='Texto que describa la imagen').img-instalacion-cableado
            
-    br
-    br
+    .row.mt-5
+      p Por otra parte, el sistema de cableado estructurado está conformado por elementos tales como: puntos de red, cableado UTP, fibra óptica o inalámbrica, switches, conectores, enrutadores, entre otros.
+
+      p La instalación se compone de varios elementos, que tiene una función única estando solo y, en conjunto aportan estas:
+
+
 
     .row.container.justify-content-around.align-items-center
         
@@ -748,14 +744,17 @@
 
                 .row(titulo="Elemento cableado vertical")
                   .col-12
-                    p.mb-0 También llamado troncal o <em>backbone</em> es el que suministra las interconexiones entre los diferentes cuartos de servicio o telecomunicaciones.
+                    p.mb-0 También llamado troncal o backbone es el que suministra las interconexiones entre los diferentes cuartos de servicio o telecomunicaciones.
+
                     p Generalmente, son uniones entre naves o entre diferentes pisos que pueden ser realizadas en cableado de cobre, pero, por motivos de dimensionado, rendimiento y ancho de banda, es más recomendable que los cableados verticales se realicen con fibra óptica.
-                    
+
+
                 .row(titulo="Cuarto de telecomunicaciones")
                   .col-12
                     p.mb-0 Es el sitio para establecer las terminaciones de cableado, generalmente, en armarios tipo rack, donde se realizará la gestión de todo el cableado estructurado.
+
                     p Debe ser un cuarto bien dimensionado para permitir posibles ampliaciones, así como la instalación de equipos de red y telecomunicaciones. No es permitido que se comparta el cuarto eléctrico con el de telecomunicaciones para evitar las interferencias que se puedan producir en la transmisión de datos.
-                    
+
                 .row(titulo="Certificación de cableado")
                   .col-12
                     p.mb-0 La certificación de un sistema de cableado estructurado nos muestra la calidad de los componentes y de la instalación, es decir, nos dice si la red de cableado cumple con la normativa y, por tanto, asegura una conectividad y un funcionamiento correcto. La certificación del cableado es la única garantía para asegurar que la red cumple con todos los requisitos y soportará los equipos y aplicaciones correspondientes sin ningún tipo de problema. Es una documentación imprescindible.
@@ -767,36 +766,39 @@
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-sup-acord")
                 .row(titulo="Electrónica de red")
                   .col-12
-                    p.mb-0 La electrónica de red es la parte de hardware encargada de gestionar todo el tráfico que se transmite por la red de cableado entre servidores, equipos informáticos, soluciones de comunicaciones de voz y de video y cualquier dispositivo conectado a la red de la empresa.
-                    p El equipamiento de electrónica de red debe de estar perfectamente calculado y debe de cumplir con los requerimientos necesarios para soportar todas las aplicaciones y equipos que funcionarán sobre la red. Una electrónica bien dimensionada permitirá que todas las soluciones que deban utilizar la red puedan funcionar perfectamente evitando problemas en la transmisión de voz, datos y video. (Villanueva-Cruz, J. A., Centro Nacional de Investigación y Desarrollo Tecnológico, García-Hernández, C. F., Pérez-Díaz, J. A., Cahue-Díaz, G., González-Serna, J. G., Instituto de Investigaciones Eléctricas, Instituto Tecnológico de Estudios Superiores de Monterrey - Campus Cuernavaca, Redes, Instalaciones y Servicios a Computadoras, y Centro Nacional de Investigación y Desarrollo Tecnológico. ,2011)
+                    p.mb-0 La electrónica de red es la parte de hardware encargada de gestionar todo el tráfico que se transmite por la red de cableado entre servidores, equipos informáticos, soluciones de comunicaciones de voz y de video, y cualquier dispositivo conectado a la red de la empresa.
 
+                    p El equipamiento de electrónica de red debe de estar perfectamente calculado y debe cumplir con los requerimientos necesarios para soportar todas las aplicaciones y equipos que funcionarán sobre la red. Una electrónica bien dimensionada permitirá que todas las soluciones que deban utilizar la red puedan funcionar perfectamente evitando problemas en la transmisión de voz, datos y video. (Villanueva-Cruz, J. A., Centro Nacional de Investigación y Desarrollo Tecnológico, García-Hernández, C. F., Pérez-Díaz, J. A., Cahue-Díaz, G., González-Serna, J. G., Instituto de Investigaciones Eléctricas, Instituto Tecnológico de Estudios Superiores de Monterrey - Campus Cuernavaca, Redes, Instalaciones y Servicios a Computadoras, y Centro Nacional de Investigación y Desarrollo Tecnológico. ,2011)
 
 
                 .row(titulo="Identificación de cableado")
                   .col-12
-                    p.mb-0 Cualquier instalación de cableado estructurado debe de estar perfectamente organizada e identificada de forma que, cuando se desee realizar un cambio, esto sea una tarea ágil y sencilla. Es necesario disponer de la documentación que identifica toda la instalación, la certificación del cableado y todos los puestos de trabajo y paneles de conexión deben de seguir un etiquetado coherente y fácil de interpretar.
-                    
+                    p.mb-0 Cualquier instalación de cableado estructurado debe estar perfectamente organizada e identificada de forma que, cuando se desee realizar un cambio, esto sea una tarea ágil y sencilla.
+
+                    p Es necesario disponer de la documentación que identifica toda la instalación y la certificación del cableado, y todos los puestos de trabajo y paneles de conexión deben seguir un etiquetado coherente y fácil de interpretar.
+
+
                     
                 .row(titulo="Gestión de cableado")
                   .col-12
-                    p.mb-0 Los elementos de conexión o <em>path cords</em> deben ser de colores para poder identificar los servicios que enlazan. Existen path cords identificables mediante fibra óptica de luz que facilitan la identificación de cableados y permiten que la organización y el peinado de cables sean perfectos. (Cortés, A. (2012)
+                    p.mb-0 Los elementos de conexión o path cords deben ser de colores para poder identificar los servicios que enlazan. Existen path cords identificables mediante fibra óptica de luz que facilitan la identificación de cableados y permiten que la organización y el peinado de cables sean perfectos. (Cortés, A. (2012)
+
 
                     
-                .row(titulo="Armarios rack")
+                .row(titulo="Armarios <em>rack</em>")
                   .col-12
                     p.mb-0 El armario <em>rack</em> es un elemento más dentro de las instalaciones de cableado estructurado.
+
                     p Se trata de un soporte metálico destinado a alojar equipamiento electrónico, informático y de comunicaciones con unas medidas de anchura normalizadas para que sean compatibles con equipamiento de cualquier fabricante.
+
 
             .col-lg-5
               figure(data-aos="zoom-in")
                 img(src="@/assets/curso/temas/img2-cableado-estruc.png", alt="alt").img400.m-auto
 
 
-    br            
-    br            
 
-
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         h3 Buenas prácticas en manipulación
 
@@ -809,7 +811,7 @@
                 h4.txt-conex-embrag Buenas prácticas
 
                 p Como segundo aspecto se necesita el conocimiento de las buenas prácticas y el complemento que la experiencia otorga. 
-                p A continuación se exponen algunas buenas prácticas: 
+                p A continuación, se exponen algunas buenas prácticas: 
                 
 
                 ul.lista-ul--color
@@ -827,11 +829,8 @@
               figure(data-aos="fade-left")
                   img(src="@/assets/curso/temas/img-buenas-practicas.png", alt="alt").img-buenas-practicas
 
-    br
-    br
-    br
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         #principales-elementos-de-proteccion-personal
         .titulo-segundo.color-primario
@@ -840,21 +839,18 @@
         .row 
             .col-lg-7
             
-                p La propuesta nos indica el conjunto de elementos que conforman la solución tecnológica propuesta, que cumple con las necesidades analizadas.
+                p La propuesta nos indica el conjunto de elementos que conforman la solución tecnológica, la cual cumple con las necesidades analizadas.
+
                 p Estas propuestas se deben dividir en la de cableado eléctrico y estructurado, aunque, en los casos en donde se parte de cero, es decir, en una construcción nueva, se pueden plantear las dos en una misma y se completan en este tipo de evento.
-            
+
+
             .col-lg-5
 
                 figure
                       img(src="@/assets/curso/temas/calculo-propuesta.png", alt="alt").calculo-propuesta
 
-    br
-    
-    separador
-    
-    br
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mt-5
 
         h3 Propuesta de instalación Eléctrica
 
@@ -879,7 +875,8 @@
 
 
 
-      
+    .row.mt-5
+      p Estimado aprendiz, hemos llegado al final de este componente formativo. Recuerde explorar los recursos que se encuentran disponibles. Diríjase al menú principal en donde encontrará la síntesis del tema abordado, una actividad didáctica, material complementario, entre otros recursos.      
 
 
 
@@ -930,7 +927,7 @@ export default {
       {
         titulo: 'Sonda',
         texto:
-          'Se debe dejar, en cada extremo de los conductores, aproximadamente, 15 m por fuera de la caja. Validar los valores de los aislamiento de cada uno de los conductores con el equipo correspondiente.',
+          'Se debe dejar en cada extremo de los conductores, aproximadamente 15 m por fuera de la caja. Validar los valores de los aislamientos de cada uno de los conductores con el equipo correspondiente.',
         imagen: require('@/assets/curso/temas/img6-slider-img-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

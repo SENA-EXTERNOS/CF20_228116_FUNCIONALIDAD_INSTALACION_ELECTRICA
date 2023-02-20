@@ -3,13 +3,12 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p En este componente formativo se realizó el proceso de adquisición de conocimientos teóricos con el objetivo conocer y realizar las actividades pertinentes al desarrollo de los informes que se deben presentar en todos los proyectos, dentro de estos encontramos cómo desarrollar un informe técnico, cuáles son sus componentes y su estructura, lo mismo con el informe de instalación que otorga una visión general de las instalaciones realizadas y, como complemento de estos, se presenta el informe de cableado, terminando así con las propuestas económicas y de costos de cada uno de estos.
-    
-    
+    p El siguiente mapa integra los conceptos más relevantes de la información expresada en el presente componente formativo.
+
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/img-sintesis.png", alt="alt").img-sintesis
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt").img-sintesis
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
