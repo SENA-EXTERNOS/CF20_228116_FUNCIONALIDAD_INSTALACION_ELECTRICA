@@ -22,19 +22,19 @@
               ul.lista-ul--color.txt-tarj1-tema1
                 li 
                   i.fas.fa-angle-right
-                  | NTC 2050: Código Eléctrico Colombiano
+                  | NTC 2050: Código Eléctrico Colombiano.
                 li 
                   i.fas.fa-angle-right
-                  | NFPA 70: National Electric Code
+                  | NFPA 70: National Electric Code.
                 li 
                   i.fas.fa-angle-right
-                  | RETIE: Reglamento técnico de instalaciones eléctricas, Resolución No. 90708 de agosto 30 de 2013 
+                  | RETIE: Reglamento técnico de instalaciones eléctricas, Resolución No. 90708 de agosto 30 de 2013.
                 li 
                   i.fas.fa-angle-right
-                  | RETILAP: Reglamento técnico de iluminación y alumbrado público, Resolución No. 180540 de Marzo 30 de 2010 
+                  | RETILAP: Reglamento técnico de iluminación y alumbrado público, Resolución No. 180540 de Marzo 30 de 2010.
                 li 
                   i.fas.fa-angle-right
-                  | NTC 4552-1,2,3: Protección contra descargas atmosféricas (Rayos)
+                  | NTC 4552-1,2,3: Protección contra descargas atmosféricas (Rayos).
                 li 
                   i.fas.fa-angle-right
                   | Estas son las normas que rigen las instalaciones dentro del territorio colombiano y son complementarias, es decir, se utilizan según la aplicabilidad: si las instalaciones son interiores, si son exteriores, si son de alumbrado público, se utiliza la norma que corresponda.
@@ -128,40 +128,33 @@
                       img(src='@/assets/curso/temas/img5-slider-tema1.png', alt='Texto que describa la imagen')
                       //figcaption Leyenda de la imagen
               
-        p.txt-inf-slider1-tema1 Técnicas y procedimientos para alambrar, empalmar, encintar y elaborar embornamientos de instalaciones eléctricas. Para realizar el alambrado de un circuito eléctrico, primero, se debe tener acceso a herramientas, materiales y equipos.
-        p.txt-inf-slider1-tema1 Como parte de los elementos se debe disponer de una sonda eléctrica, un dispositivo de medida como un metro, las instalaciones en donde se va a realizar el alambrado y los equipos de protección personal de los técnicos que van a realizar el proceso.
-    
-    br
-    br
-    br
+        p.txt-inf-slider1-tema1 Ahora, es momento de hablar sobre las técnicas y procedimientos para alambrar, empalmar, encintar y elaborar embornamientos de instalaciones eléctricas.
 
-    .row.container.justify-content-around.align-items-center
+        p.txt-inf-slider1-tema1 Para realizar el alambrado de un circuito eléctrico, primero, se debe tener acceso a herramientas, materiales y equipos. Como parte de los elementos, se debe disponer de una sonda eléctrica, un dispositivo de medida como un metro, las instalaciones en donde se va a realizar el alambrado y los equipos de protección personal de los técnicos que van a realizar el proceso. 
+
+
+    .row.container.justify-content-around.align-items-center.p-2.mt-5
       
         SlyderB.mb-5(:datos="datosSlyder")
 
-    br
-    br
-    br
 
-    .row.container.justify-content-around.align-items-center
+
+    .row.container.justify-content-around.align-items-center.mt-5
 
       .row 
         .col-lg-7
 
             h4 Técnicas de empalme, encintados y elaboración de embornamientos
-            p Como complemento de lo anterior, debemos entender la importancia de los empalmes en las uniones de los cables eléctricos, estos son, quizás, uno de los factores que más influyen en el buen funcionamiento de una instalación eléctrica (considerar la correcta conexión). Dependiendo de la situación de instalación y de cómo se coloque el cable de alimentación, se debe realizar la conexión ideal. Entre los empalmes que se pueden realizar se encuentran los siguientes:
-
+            p Se debe entender la importancia de los empalmes en las uniones de los cables eléctricos, estos son quizás, uno de los factores que más influyen en el buen funcionamiento de una instalación eléctrica (considerar la correcta conexión). Dependiendo de la situación de instalación y de cómo se coloque el cable de alimentación, se debe realizar la conexión ideal. Entre los empalmes que se pueden realizar se encuentran los siguientes:
 
         .col-lg-5
 
             figure
                 img(data-aos="fade-left")(src='@/assets/curso/temas/img-tecnicas-empalme.png', alt='Texto que describa la imagen').img-tecnicas-empalme
               
-    br
-    br
-    br
 
-    .row.container.justify-content-around.align-items-center
+
+    .row.container.justify-content-around.align-items-center.mt-5
 
         TabsC.color-primario
 
@@ -179,9 +172,7 @@
                 figure
                   img(src='@/assets/curso/temas/img2-empalme-cola-rata.png', alt='Texto que describa la imagen').img-empalmes
                   //figcaption Leyenda de la imagen
-                br
-                p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog].
-                p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
+
 
 
           .py-3.py-md-4(titulo="Empalme <em>western unión</em>")
@@ -196,10 +187,7 @@
                 figure
                   img(src='@/assets/curso/temas/img-empalme-western-union.png', alt='Texto que describa la imagen').img-empalmes
                   //figcaption Leyenda de la imagen
-                br
-                p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog]. 
-                p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
-          
+
           .py-3.py-md-4(titulo="Empalme en T o derivación simple")
             .row
               .col-md-12.mb-10.mb-md-0
@@ -215,11 +203,7 @@
                   //figcaption Leyenda de la imagen
               
                 //h4 Celebrate your failures 2
-                br
-                p #[strong Nota.] Faradayos (2015). Tipos de empalmes eléctricos y pasos para realizarlos [Blog].
-                p.texto-azul-links https://www.faradayos.info/2013/12/empalmes-cables-electricos-derivacion-cola-rata-prolongacion.html
 
-    
 
     .row.container.justify-content-around.align-items-center.mt-5
 
@@ -447,16 +431,16 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right
-                  | Planificación
+                  | Planificación.
                 li 
                   i.fas.fa-angle-right
-                  | Ejecución
+                  | Ejecución.
                 li 
                   i.fas.fa-angle-right
-                  | Presentación de informes
+                  | Presentación de informes.
                 li 
                   i.fas.fa-angle-right
-                  | Informe final
+                  | Informe final.
                   
 
           .col-lg-6
@@ -486,16 +470,16 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right
-                  | Plan y horario para la inspección
+                  | Plan y horario para la inspección.
                 li 
                   i.fas.fa-angle-right
-                  | Visita de reconocimiento a instalaciones
+                  | Visita de reconocimiento a instalaciones.
                 li 
                   i.fas.fa-angle-right
-                  | Identificación de áreas de riesgo
+                  | Identificación de áreas de riesgo.
                 li 
                   i.fas.fa-angle-right
-                  | Zonas restringidas
+                  | Zonas restringidas.
         
         p Dentro de las inspecciones es importante realizar las siguientes actividades que son de gran importancia para la validez y la eficacia de la instalación:        
 
@@ -511,13 +495,13 @@
             img(src="@/assets/curso/temas/img-activid-inspeccion.png", alt="alt")
         .col-lg-8
           LineaTiempoD.color-secundario
-            p(numero="1" titulo="Conexión a tierra:") Las conexiones a tierra se verifican para la prueba validando que la tierra esté debidamente instalada de tal forma que, cuando ocurra alguna descarga, asegure el desempeño de la protección.
+            p(numero="1" titulo="Conexión a tierra") Las conexiones a tierra se verifican para la prueba validando que la tierra esté debidamente instalada de tal forma que, cuando ocurra alguna descarga, asegure el desempeño de la protección.
 
-            p(numero="2" titulo="Protección contra contacto directo:") Se comprueba la presencia de métodos de protección contra contactos directos, tales como como la cubierta del panel eléctrico y las cajas de distribución.
+            p(numero="2" titulo="Protección contra contacto directo") Se comprueba la presencia de métodos de protección contra contactos directos, tales como como la cubierta del panel eléctrico y las cajas de distribución.
 
-            p(numero="3" titulo="Protección contra contactos Indirectos:") Se comprueba la existencia de medios de protección contra contactos indirectos (separación de circuitos, sistemas de puesta a tierra, interruptores diferenciales, etc.).
+            p(numero="3" titulo="Protección contra contactos Indirectos") Se comprueba la existencia de medios de protección contra contactos indirectos (separación de circuitos, sistemas de puesta a tierra, interruptores diferenciales, etc.).
 
-            p(numero="4" titulo="Protección contra sobrecargas y cortocircuitos:") Se comprueba la protección de los circuitos por medio de interruptores magneto térmicos o de fusibles calibrados contra los efectos de las sobreintensidades y cortocircuitos que puedan presentarse motivadas por sobrecargas o cortocircuitos. Se verifica la utilización de conductores de sección adecuada en relación con la potencia instalada.
+            p(numero="4" titulo="Protección contra sobrecargas y cortocircuitos") Se comprueba la protección de los circuitos por medio de interruptores magneto térmicos o de fusibles calibrados contra los efectos de las sobreintensidades y cortocircuitos que puedan presentarse motivadas por sobrecargas o cortocircuitos. Se verifica la utilización de conductores de sección adecuada en relación con la potencia instalada.
 
 
 
@@ -707,10 +691,10 @@
 
         #principales-elementos-de-proteccion-personal
         .titulo-segundo.color-primario
-          h2 1.2  Instalación de cableado estructurado
+          h2 1.2 Instalación de cableado estructurado
 
         
-        .row 
+        .row.justify-content-center.align-items-center
             .col-lg-7
 
                 p La documentación se analiza como una etapa previa a la inspección con el fin de que, si existiese alguna anormalidad, irregularidad o discrepancia en cuanto al cumplimiento del RETIE o la norma NTC 2050, esta pueda ser estudiada antes del inicio de la inspección.
