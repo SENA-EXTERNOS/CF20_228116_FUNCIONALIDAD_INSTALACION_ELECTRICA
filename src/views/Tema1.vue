@@ -173,6 +173,8 @@
                   img(src='@/assets/curso/temas/img2-empalme-cola-rata.png', alt='Texto que describa la imagen').img-empalmes
                   //figcaption Leyenda de la imagen
 
+                p.text-center <b>Nota.</b> Faradayos (2015). 
+
 
 
           .py-3.py-md-4(titulo="Empalme <em>western unión</em>")
@@ -188,6 +190,8 @@
                   img(src='@/assets/curso/temas/img-empalme-western-union.png', alt='Texto que describa la imagen').img-empalmes
                   //figcaption Leyenda de la imagen
 
+                p.text-center <b>Nota.</b> Faradayos (2015). 
+
           .py-3.py-md-4(titulo="Empalme en T o derivación simple")
             .row
               .col-md-12.mb-10.mb-md-0
@@ -201,6 +205,8 @@
                 figure
                   img(src='@/assets/curso/temas/img-empalme-t.png', alt='Texto que describa la imagen').img-empalmes
                   //figcaption Leyenda de la imagen
+
+                p.text-center <b>Nota.</b> Faradayos (2015). 
               
                 //h4 Celebrate your failures 2
 
@@ -512,17 +518,17 @@
         .col-lg-8
           LineaTiempoD.color-secundario
 
-            p(numero="5" titulo="Identificación de circuitos y conductores:") Se verifica la correcta identificación de circuitos y elementos, así como la identificación de conductores.
+            p(numero="5" titulo="Identificación de circuitos y conductores") Se verifica la correcta identificación de circuitos y elementos, así como la identificación de conductores.
 
-            p(numero="6" titulo="Tipo de conductores:") Las características de los conductores a utilizar, dependerá de la aplicación, del lugar y de las condiciones en que se instalen.
+            p(numero="6" titulo="Tipo de conductores") Las características de los conductores a utilizar, dependerá de la aplicación, del lugar y de las condiciones en que se instalen.
 
-            p(numero="7" titulo="Tubos y cajas de derivación:") La clase de tubos y cajas de derivación a utilizar dependerá también de la aplicación, del lugar y de las condiciones de instalación.
+            p(numero="7" titulo="Tubos y cajas de derivación") La clase de tubos y cajas de derivación a utilizar dependerá también de la aplicación, del lugar y de las condiciones de instalación.
 
-            p(numero="8" titulo="Estado de cuadros eléctricos:") Se comprueba el buen estado, en general, de los cuadros eléctricos (deterioros, oxidación, síntomas de calentamiento, rotulación de mandos, etc.).
+            p(numero="8" titulo="Estado de cuadros eléctricos") Se comprueba el buen estado, en general, de los cuadros eléctricos (deterioros, oxidación, síntomas de calentamiento, rotulación de mandos, etc.).
 
-            p(numero="9" titulo="Alumbrados especiales:") Se comprobará la existencia de alumbrados especiales, en caso de ser necesarios, su correcta distribución y funcionamiento.
+            p(numero="9" titulo="Alumbrados especiales") Se comprobará la existencia de alumbrados especiales, en caso de ser necesarios, su correcta distribución y funcionamiento.
 
-            p(numero="10" titulo="Cruzamientos y paralelismos:") Se comprueba que la distancia entre canalizaciones eléctricas a otras canalizaciones no eléctricas, sea la adecuada.
+            p(numero="10" titulo="Cruzamientos y paralelismos") Se comprueba que la distancia entre canalizaciones eléctricas a otras canalizaciones no eléctricas, sea la adecuada.
 
 
         .col-lg-4
