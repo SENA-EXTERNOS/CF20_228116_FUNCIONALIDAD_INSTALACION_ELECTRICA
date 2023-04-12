@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'En este componente formativo se desarrollarán los conceptos del proceso de funcionamiento de las redes eléctricas. Para ello se estudiarán los procedimientos para hacer regatas, tendido y unión de tubería, procedimientos para elaborar instalaciones eléctricas, los informes de  la instalación y una propuesta que se deben conocer para lograr una instalación exitosa de las redes de datos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/img-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principalC.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],

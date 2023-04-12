@@ -62,7 +62,7 @@
 
             SlyderA(tipo="b")
             
-              .row.justify-content-center.align-items-center.my-lg-4
+              .row.justify-content-center.align-items-center.my-lg-4.mx-4
 
                 .col-md-6.mb-4.mb-md-0
                   p.txt-slider1-tema1 Realizar el mapa de distribución: la primera tarea que se debe realizar antes de empezar a construir las regatas es el desarrollo del mapa de distribución de los puntos eléctricos, el tablero de control para que desde aquí se pueda planear de forma estructurada el desarrollo de los caminos de las regatas, con el fin de evitar, en lo posible, que se crucen y evitar que, al instalar los tubos, estos se curven. Cuando hay situaciones en las cuales las instalaciones físicas obligan a curvarse, se puede hacer, pues la norma no lo prohíbe; sin embargo, como técnica, es mejor no hacerlo. (Bernal-Zuluaga, M. J., y Jiménez-Mendoza,2012)
@@ -74,7 +74,7 @@
                     img(src='@/assets/curso/temas/img1-slider-tema1.png', alt='Texto que describa la imagen').img1-slider-tema1
                     //figcaption Leyenda de la imagen
 
-              .row.justify-content-center.align-items-center.my-lg-4
+              .row.justify-content-center.align-items-center.my-lg-4.mx-4
 
                 .col-md-6.mb-4.mb-md-0
                   p.txt-slider1-tema1 Instalación de la regata en la pared: lo primero que se debe establecer es cuántos tubos van a ser instalados sobre esa regata para poder determinar el tamaño; para esto los tubos deben quedar lineales, con una separación prudente y no deben colocarse superpuestos, pues esto impide las conexiones con las cajas o los contadores.
@@ -87,7 +87,7 @@
                     img(src='@/assets/curso/temas/img2-slider-tema1.png', alt='Texto que describa la imagen')
                     //figcaption Leyenda de la imagen
 
-              .row.justify-content-center.align-items-center.my-lg-4
+              .row.justify-content-center.align-items-center.my-lg-4.mx-4
 
                   .col-md-6.mb-4.mb-md-0
                     p.txt-slider1-tema1 Instalación de la regata en piso: en esta se deben establecer como primera medida el número de tubos que se van a alojar en la regata para determinar el tamaño de esta, de tal forma que queden distantes entre ellos.
@@ -100,7 +100,7 @@
                       img(src='@/assets/curso/temas/img3-slider-tema1.png', alt='Texto que describa la imagen')
                       //figcaption Leyenda de la imagen
            
-              .row.justify-content-center.align-items-center.my-lg-4
+              .row.justify-content-center.align-items-center.my-lg-4.mx-4
 
                   .col-md-6.mb-4.mb-md-0
                     p.txt-slider1-tema1 Unión o enlace de las tuberías: los enlaces o las uniones de los tubos deben hacerse con los codos respectivos, es obligatorio que en la regata que une un muro con el piso o un techo, se coloque un codo. 
@@ -114,7 +114,7 @@
                       //figcaption Leyenda de la imagen
 
               
-              .row.justify-content-center.align-items-center.my-lg-4
+              .row.justify-content-center.align-items-center.my-lg-4.mx-4
 
                   .col-md-6.mb-4.mb-md-0
                     p.txt-slider1-tema1 Conexión de las regatas a las cajas o tableros de control: en estos espacios se habilita la disposición para realizar la instalación de las cajas o los dispositivos de distribución que se van a utilizar.
@@ -134,6 +134,7 @@
 
 
     .row.container.justify-content-around.align-items-center.p-2.mt-5
+      .editado
       
         SlyderB.mb-5(:datos="datosSlyder")
 
@@ -417,7 +418,7 @@
         
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/7-0Ge3rwK48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
   
 
@@ -549,7 +550,7 @@
         
           SlyderA(tipo="b")
 
-            .row
+            .row.mx-4
               .col-md-6.mb-4.mb-md-0
                 p La documentación se analiza como una etapa previa a la inspección con el fin de que, si existiese alguna anormalidad, irregularidad o discrepancia en cuanto al cumplimiento del RETIE o la norma NTC 2050, esta pueda ser estudiada antes del inicio de la inspección.
 
@@ -559,7 +560,7 @@
                   img(src='@/assets/curso/temas/img1-slider-ejec.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
 
-            .row.justify-content-center.align-items-center.my-lg-4
+            .row.justify-content-center.align-items-center.my-lg-4.mx-4
               
               .col-md-6.mb-4.mb-md-0
                 p Las observaciones se registran y se clasifican como se detalla a continuación:
@@ -570,7 +571,7 @@
                   img(src='@/assets/curso/temas/img-2-slider-ejec.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
 
-            .row.justify-content-center.align-items-center.my-lg-4
+            .row.justify-content-center.align-items-center.my-lg-4.mx-4
               
               .col-md-6.mb-4.mb-md-0
                 p Es todo elemento o evento que la razón o la experiencia determina que constituye un peligro inmediato para la seguridad de las personas o de las cosas.
@@ -614,7 +615,7 @@
                   img(src='@/assets/curso/temas/img3-slider-ejec.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
 
-            .row.justify-content-center.align-items-center.my-lg-4
+            .row.justify-content-center.align-items-center.my-lg-4.mx-4
               
               .col-md-6.mb-4.mb-md-0
                 p Es el que, a diferencia del muy grave, no supone un peligro inmediato para la seguridad de las personas o de las cosas, pero sí puede serlo al originarse un fallo en la instalación. Se incluye también dentro de esta clasificación aquel defecto que pueda reducir la capacidad de utilización de la instalación eléctrica.
@@ -644,7 +645,7 @@
                   img(src='@/assets/curso/temas/img-defecto-grave.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
         
-            .row.justify-content-center.align-items-center.my-lg-4
+            .row.justify-content-center.align-items-center.my-lg-4.mx-4
               
               .col-md-6.mb-4.mb-md-0
               
@@ -680,7 +681,7 @@
          
          
     
-            .row.justify-content-center.align-items-center.my-lg-4
+            .row.justify-content-center.align-items-center.my-lg-4.mx-4
               
               .col-md-6.mb-4.mb-md-0
                 p Es todo aquel que no supone peligro para las personas o las cosas; no perturba el funcionamiento de la instalación y en el que la desviación observada no tiene valor.
@@ -934,4 +935,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.slyder-b__slyde
+  padding: 0 5rem !important
+</style>
