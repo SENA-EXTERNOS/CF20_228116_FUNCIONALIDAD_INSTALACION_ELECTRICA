@@ -789,7 +789,7 @@
 
 
 
-    .row.container.justify-content-around.align-items-center.mt-5
+    .row.container.justify-content-around.align-items-center.my-5
 
         h3 Buenas prácticas en manipulación
 
@@ -820,7 +820,7 @@
               figure(data-aos="fade-left")
                   img(src="@/assets/curso/temas/img-buenas-practicas.png", alt="alt").img-buenas-practicas
 
-
+    Separador
     .row.container.justify-content-around.align-items-center.mt-5
 
         #principales-elementos-de-proteccion-personal
