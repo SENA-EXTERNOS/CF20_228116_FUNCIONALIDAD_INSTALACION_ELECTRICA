@@ -408,17 +408,16 @@
 
     .row.container.justify-content-around.align-items-center.mt-5
 
-        #principales-elementos-de-proteccion-personal
-        .titulo-segundo.color-primario
-          h2 1.1  Informe de instalación
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.1  Informe de instalación
 
         
-        p El informe de instalación es un conjunto de la información referente a cada uno de los elementos que conforman ese montaje.
+    p El informe de instalación es un conjunto de la información referente a cada uno de los elementos que conforman ese montaje.
 
         
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/7-0Ge3rwK48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7-0Ge3rwK48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
   
 
@@ -696,20 +695,19 @@
     
     .row.container.justify-content-around.align-items-center.mt-5
 
-        #principales-elementos-de-proteccion-personal
-        .titulo-segundo.color-primario
-          h2 1.2 Instalación de cableado estructurado
+    #t_1_2.titulo-segundo.color-primario
+        h2 1.2 Instalación de cableado estructurado
 
         
-        .row.justify-content-center.align-items-center
-            .col-lg-7
+    .row.justify-content-center.align-items-center
+        .col-lg-7
 
-                p La documentación se analiza como una etapa previa a la inspección con el fin de que, si existiese alguna anormalidad, irregularidad o discrepancia en cuanto al cumplimiento del RETIE o la norma NTC 2050, esta pueda ser estudiada antes del inicio de la inspección.
-    
-            .col-lg-5
+            p La documentación se analiza como una etapa previa a la inspección con el fin de que, si existiese alguna anormalidad, irregularidad o discrepancia en cuanto al cumplimiento del RETIE o la norma NTC 2050, esta pueda ser estudiada antes del inicio de la inspección.
 
-                figure
-                    img(src='@/assets/curso/temas/img-instalacion-cableado.png', alt='Texto que describa la imagen').img-instalacion-cableado
+        .col-lg-5
+
+            figure
+                img(src='@/assets/curso/temas/img-instalacion-cableado.png', alt='Texto que describa la imagen').img-instalacion-cableado
            
     .row.mt-5
       p Por otra parte, el sistema de cableado estructurado está conformado por elementos tales como: puntos de red, cableado UTP, fibra óptica o inalámbrica, switches, conectores, enrutadores, entre otros.
@@ -823,22 +821,21 @@
     Separador
     .row.container.justify-content-around.align-items-center.mt-5
 
-        #principales-elementos-de-proteccion-personal
-        .titulo-segundo.color-primario
-          h2 1.3  Cálculo propuesta y costo
+    #t_1_3.titulo-segundo.color-primario
+      h2 1.3  Cálculo propuesta y costo
         
-        .row 
-            .col-lg-7
-            
-                p La propuesta nos indica el conjunto de elementos que conforman la solución tecnológica, la cual cumple con las necesidades analizadas.
+    .row 
+        .col-lg-7
+        
+            p La propuesta nos indica el conjunto de elementos que conforman la solución tecnológica, la cual cumple con las necesidades analizadas.
 
-                p Estas propuestas se deben dividir en la de cableado eléctrico y estructurado, aunque, en los casos en donde se parte de cero, es decir, en una construcción nueva, se pueden plantear las dos en una misma y se completan en este tipo de evento.
+            p Estas propuestas se deben dividir en la de cableado eléctrico y estructurado, aunque, en los casos en donde se parte de cero, es decir, en una construcción nueva, se pueden plantear las dos en una misma y se completan en este tipo de evento.
 
 
-            .col-lg-5
+        .col-lg-5
 
-                figure
-                      img(src="@/assets/curso/temas/calculo-propuesta.png", alt="alt").calculo-propuesta
+            figure
+                  img(src="@/assets/curso/temas/calculo-propuesta.png", alt="alt").calculo-propuesta
 
 
     .row.container.justify-content-around.align-items-center.mt-5

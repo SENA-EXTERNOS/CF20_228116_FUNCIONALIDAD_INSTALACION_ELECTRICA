@@ -46,13 +46,13 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Instalación de cableado estructurado',
-            hash: 'instalacion-de-cableado-estructurado',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Cálculo propuesta y costo',
-            hash: 'calculo-propuesta-y-costo',
+            hash: 't_1_3',
           },
         ],
       },
@@ -98,14 +98,14 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: 'Instalación de redes',
-      referencia:
-        'Ramos, A. (s.f.). Instalación y mantenimiento de redes informáticas. Aspectos fundamentales sobre redes [Documento web]. Instituto Técnico Integral.',
-      tipo: 'Artículo ',
-      link:
-        'https://www.trabajosocial.unlp.edu.ar/uploads/docs/instalacion_y_mantenimiento_de_redes_informaticas__aspectos_fundamentales_sobre_redes_.pdf',
-    },
+    // {
+    //   tema: 'Instalación de redes',
+    //   referencia:
+    //     'Ramos, A. (s.f.). Instalación y mantenimiento de redes informáticas. Aspectos fundamentales sobre redes [Documento web]. Instituto Técnico Integral.',
+    //   tipo: 'Artículo ',
+    //   link:
+    //     'https://www.trabajosocial.unlp.edu.ar/uploads/docs/instalacion_y_mantenimiento_de_redes_informaticas__aspectos_fundamentales_sobre_redes_.pdf',
+    // },
     {
       tema: 'Análisis de precios unitarios',
       referencia:
@@ -201,7 +201,7 @@ export default {
     {
       referencia:
         'Hernández-Reverol, D., Fuentes-Méndez, L., y Torres-Granadillo, F. (2011). Propuesta metodológica para la evaluación y selección de proyectos tecnológicos. <em>Revista de ciencias sociales,</em> 4(1).',
-      link: 'https://doi.org/10.31876/rcs.v4i1.25026',
+      link: '',
     },
     {
       referencia:
