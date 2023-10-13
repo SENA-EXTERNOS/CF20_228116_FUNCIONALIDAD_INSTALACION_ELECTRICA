@@ -178,14 +178,14 @@
 
 
 
-          .py-3.py-md-4(titulo="Empalme <em>western unión</em>")
+          .py-3.py-md-4(titulo="Empalme <em>western union</em>")
             .row
               .col-md-12.mb-10.mb-md-0
                 p Este tipo de unión es el más utilizado para concretar los tendidos eléctricos. Sirve para unir dos conductores o alambres y es muy apetecido porque, debido a su forma de construcción, soporta mayores esfuerzos.
                 
                 .titulo-sexto.color-secundario.mb-3
                     h5 Figura 2
-                    p <em>Empalme western unión</em>
+                    p <em>Empalme western union</em>
 
                 figure
                   img(src='@/assets/curso/temas/img-empalme-western-union.png', alt='Texto que describa la imagen').img-empalmes
@@ -503,7 +503,7 @@
           LineaTiempoD.color-secundario
             p(numero="1" titulo="Conexión a tierra") Las conexiones a tierra se verifican para la prueba validando que la tierra esté debidamente instalada de tal forma que, cuando ocurra alguna descarga, asegure el desempeño de la protección.
 
-            p(numero="2" titulo="Protección contra contacto directo") Se comprueba la presencia de métodos de protección contra contactos directos, tales como como la cubierta del panel eléctrico y las cajas de distribución.
+            p(numero="2" titulo="Protección contra contacto directo") Se comprueba la presencia de métodos de protección contra contactos directos, tales como la cubierta del panel eléctrico y las cajas de distribución.
 
             p(numero="3" titulo="Protección contra contactos Indirectos") Se comprueba la existencia de medios de protección contra contactos indirectos (separación de circuitos, sistemas de puesta a tierra, interruptores diferenciales, etc.).
 
@@ -710,7 +710,7 @@
                 img(src='@/assets/curso/temas/img-instalacion-cableado.png', alt='Texto que describa la imagen').img-instalacion-cableado
            
     .row.mt-5
-      p Por otra parte, el sistema de cableado estructurado está conformado por elementos tales como: puntos de red, cableado UTP, fibra óptica o inalámbrica, switches, conectores, enrutadores, entre otros.
+      p Por otra parte, el sistema de cableado estructurado está conformado por elementos tales como: puntos de red, cableado UTP, fibra óptica o inalámbrica, #[em switches], conectores, enrutadores, entre otros.
 
       p La instalación se compone de varios elementos, que tiene una función única estando solo y, en conjunto aportan estas:
 
@@ -740,7 +740,7 @@
 
                 .row(titulo="Cuarto de telecomunicaciones")
                   .col-12
-                    p.mb-0 Es el sitio para establecer las terminaciones de cableado, generalmente, en armarios tipo rack, donde se realizará la gestión de todo el cableado estructurado.
+                    p.mb-0 Es el sitio para establecer las terminaciones de cableado, generalmente, en armarios tipo #[em rack], donde se realizará la gestión de todo el cableado estructurado.
 
                     p Debe ser un cuarto bien dimensionado para permitir posibles ampliaciones, así como la instalación de equipos de red y telecomunicaciones. No es permitido que se comparta el cuarto eléctrico con el de telecomunicaciones para evitar las interferencias que se puedan producir en la transmisión de datos.
 
@@ -755,7 +755,7 @@
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-sup-acord")
                 .row(titulo="Electrónica de red")
                   .col-12
-                    p.mb-0 La electrónica de red es la parte de hardware encargada de gestionar todo el tráfico que se transmite por la red de cableado entre servidores, equipos informáticos, soluciones de comunicaciones de voz y de video, y cualquier dispositivo conectado a la red de la empresa.
+                    p.mb-0 La electrónica de red es la parte de #[em hardware] encargada de gestionar todo el tráfico que se transmite por la red de cableado entre servidores, equipos informáticos, soluciones de comunicaciones de voz y de video, y cualquier dispositivo conectado a la red de la empresa.
 
                     p El equipamiento de electrónica de red debe de estar perfectamente calculado y debe cumplir con los requerimientos necesarios para soportar todas las aplicaciones y equipos que funcionarán sobre la red. Una electrónica bien dimensionada permitirá que todas las soluciones que deban utilizar la red puedan funcionar perfectamente evitando problemas en la transmisión de voz, datos y video. (Villanueva-Cruz, J. A., Centro Nacional de Investigación y Desarrollo Tecnológico, García-Hernández, C. F., Pérez-Díaz, J. A., Cahue-Díaz, G., González-Serna, J. G., Instituto de Investigaciones Eléctricas, Instituto Tecnológico de Estudios Superiores de Monterrey - Campus Cuernavaca, Redes, Instalaciones y Servicios a Computadoras, y Centro Nacional de Investigación y Desarrollo Tecnológico. ,2011)
 
@@ -770,7 +770,7 @@
                     
                 .row(titulo="Gestión de cableado")
                   .col-12
-                    p.mb-0 Los elementos de conexión o path cords deben ser de colores para poder identificar los servicios que enlazan. Existen path cords identificables mediante fibra óptica de luz que facilitan la identificación de cableados y permiten que la organización y el peinado de cables sean perfectos. (Cortés, A. (2012)
+                    p.mb-0 Los elementos de conexión o #[em path cords] deben ser de colores para poder identificar los servicios que enlazan. Existen #[em path cords] identificables mediante fibra óptica de luz que facilitan la identificación de cableados y permiten que la organización y el peinado de cables sean perfectos. (Cortés, A. (2012)
 
 
                     

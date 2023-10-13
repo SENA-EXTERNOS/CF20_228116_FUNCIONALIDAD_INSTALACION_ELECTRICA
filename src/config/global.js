@@ -98,14 +98,14 @@ export default {
     ],
   },
   complementario: [
-    // {
-    //   tema: 'Instalación de redes',
-    //   referencia:
-    //     'Ramos, A. (s.f.). Instalación y mantenimiento de redes informáticas. Aspectos fundamentales sobre redes [Documento web]. Instituto Técnico Integral.',
-    //   tipo: 'Artículo ',
-    //   link:
-    //     'https://www.trabajosocial.unlp.edu.ar/uploads/docs/instalacion_y_mantenimiento_de_redes_informaticas__aspectos_fundamentales_sobre_redes_.pdf',
-    // },
+    {
+      tema: 'Instalación de redes',
+      referencia:
+        'Ramos, A. (s.f.). Instalación y mantenimiento de redes informáticas. Aspectos fundamentales sobre redes [Documento web]. Instituto Técnico Integral.',
+      tipo: 'Artículo ',
+      link:
+        'https://www.trabajosocial.unlp.edu.ar/uploads/docs/instalacion_y_mantenimiento_de_redes_informaticas__aspectos_fundamentales_sobre_redes_.pdf',
+    },
     {
       tema: 'Análisis de precios unitarios',
       referencia:
@@ -215,7 +215,7 @@ export default {
     },
     {
       referencia:
-        'Villanueva-Cruz, J. A., Centro Nacional de Investigación y Desarrollo Tecnológico, García-Hernández, C. F., Pérez-Díaz, J. A., Cahue-Díaz, G., González-Serna, J. G., Instituto de Investigaciones Eléctricas, Instituto Tecnológico de Estudios Superiores de Monterrey - Campus Cuernavaca, Redes, Instalaciones y Servicios a Computadoras, y Centro Nacional de Investigación y Desarrollo Tecnológico. (2011). Security in AODV Protocol Routing for Mobile ad hoc Networks. <em>Ingeniería Investigación y Tecnología,</em> 12(1), 15–24. ',
+        'Villanueva-Cruz, J. A., Centro Nacional de Investigación y Desarrollo Tecnológico, García-Hernández, C. F., Pérez-Díaz, J. A., Cahue-Díaz, G., González-Serna, J. G., Instituto de Investigaciones Eléctricas, Instituto Tecnológico de Estudios Superiores de Monterrey - Campus Cuernavaca, Redes, Instalaciones y Servicios a Computadoras, y Centro Nacional de Investigación y Desarrollo Tecnológico. (2011). Security in AODV Protocol Routing for Mobile ad hoc Networks. <em>Seguridad en el enrutamiento del protocolo AODV para redes móviles ad hoc,</em> 12(1), 15–24. ',
       link: 'https://doi.org/10.22201/fi.25940732e.2011.12n1.003',
     },
   ],
